@@ -2,7 +2,10 @@
 title: "Hotel bookings - data wrangling"
 author: "Mine Çetinkaya-Rundel"
 date: "`r Sys.Date()`"
-output: github_document
+output: 
+  html_document: 
+    toc: yes
+    toc_float: yes
 ---
 
 ```{r load-pkg, message = FALSE}
